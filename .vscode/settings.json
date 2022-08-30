@@ -1,0 +1,6 @@
+{
+    "editor.autoClosingOvertype": "never",
+    "editor.autoClosingQuotes": "always",
+    "editor.autoSurround": "languageDefined",
+    "editor.autoClosingBrackets": "always"
+}
