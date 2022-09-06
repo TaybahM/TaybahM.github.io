@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <!--
 	Editorial by HTML5 UP
@@ -5,8 +6,50 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+<?php  
+ 
+if(isset($_POST['submit'])) {
+ $mailto = "hmawebdesign@hotmail.com";  //My email address
+ //getting customer data
+ $name = $_POST['name']; //getting customer name
+ $fromEmail = $_POST['email']; //getting customer email
+ $phone = $_POST['tel']; //getting customer Phome number
+ $subject = $_POST['subject']; //getting subject line from client
+ $subject2 = "Confirmation: Message was submitted successfully | HMA WebDesign"; // For customer confirmation
+ 
+ //Email body I will receive
+ $message = "Cleint Name: " . $name . "\n"
+ . "Phone Number: " . $phone . "\n\n"
+ . "Client Message: " . "\n" . $_POST['message'];
+ 
+ //Message for client confirmation
+ $message2 = "Dear" . $name . "\n"
+ . "Thank you for contacting us. We will get back to you shortly!" . "\n\n"
+ . "You submitted the following message: " . "\n" . $_POST['message'] . "\n\n"
+ . "Regards," . "\n" . "- HMA WebDesign";
+ 
+ //Email headers
+ $headers = "From: " . $fromEmail; // Client email, I will receive
+ $headers2 = "From: " . $mailto; // This will receive client
+ 
+ //PHP mailer function
+ 
+  $result1 = mail($mailto, $subject, $message, $headers); // This email sent to My address
+  $result2 = mail($fromEmail, $subject2, $message2, $headers2); //This confirmation email to client
+ 
+  //Checking if Mails sent successfully
+ 
+  if ($result1 && $result2) {
+    $success = "Your Message was sent Successfully!";
+  } else {
+    $failed = "Sorry! Message was not sent, Try again Later.";
+  }
+ 
+}
+ 
+?>
 	<head>
-		<title>Roane Energy</title>
+		<title>BlackBeard</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -22,7 +65,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="index.html" class="logo"><img src="images/roane/title_logo.JPG" alt="Black Beard Logo"  width="auto" height="45px"></a>
+									<a href="index.html" class="logo"><img src="images/BB/BlackBeard_title.png" alt="Black Beard Logo"  width="auto" height="21.936px"></a>
 									<ul class="icons">
 										<li><a href="https://www.linkedin.com/in/taybah-mohammad/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
 										<li><a href="https://github.com/TaybahM/TaybahM.github.io" class="icon brands fa-github"><span class="label">Github</span></a></li>
@@ -32,51 +75,44 @@
 
 							<!-- Content -->
 								<section>
-									<header class="main">
-										<h1>Roane Energy</h1>
-									</header>
-
-									<span class="image main"><img src="images/roane/banner.jpg" alt="" /></span>
-
-									<p>Roane Energy was a mock project I worked early in 2022. I created this brand design to improve my product design skills and test my design abilities. </p>
-									
+							
 								</section>
 
-								<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Assets</h2>
-									</header>
-									<p>Here are a couple examples of the work I did for this project. If you would like an SVG of any of my work to use as a template or reference, shoot me an <a href="mailto:taybahmohammad7@gmail.com" >email</a> and let me know which ones you would like.</p>
-									
-								</section>
-									<h2>Brand</h2>
-													
-									<div class="box alt">
-										<div class="row gtr-50 gtr-uniform">
-											<div class="col-4"><span class="image fit"><img src="images/roane/sq1.JPG" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/roane/sq2.JPG" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/roane/sq3.JPG" alt="" /></span></div>
-											<!-- Break -->
-											<div class="col-4"><span class="image fit"><img src="images/roane/sq4.JPG" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/roane/sq5.JPG" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/roane/sq6.JPG" alt="" /></span></div>
-										</div>
-									</div>
-											
-									<center>
-										<span class="image fit"><img src="images/roane/banner_2.JPG" alt="" /></span>	
-									</center>
+<!-- Form -->
+<h3>Contact Form</h3>
 
-									<p></p>
+<form method="post" action="#">
+    <div class="row gtr-uniform">
+        <div class="col-6 col-12-xsmall">
+            <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+        </div>
+        <div class="col-6 col-12-xsmall">
+            <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+        </div>
+        <!-- Break -->
+        <div class="col-12">
+            <select name="demo-category" id="demo-category">
+                <option value="">- Category -</option>
+                <option value="1">Logo Design</option>
+                <option value="1">Print</option>
+                <option value="1">Advertising/ Marketing</option>
+                <option value="1">Other</option>
+            </select>
+        </div>
+        <!-- Break -->
+        <div class="col-12">
+            <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+        </div>
+        <!-- Break -->
+        <div class="col-12">
+            <ul class="actions">
+                <li><input type="submit" value="Send Message" class="primary" /></li>
+                <li><input type="reset" value="Reset" /></li>
+            </ul>
+        </div>
+    </div>
+</form>
 
-									<div class="box alt">
-										<div class="row gtr-50 gtr-uniform">
-											<div class="col-4"><span class="image fit"><img src="images/roane/rec1.JPG" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/roane/rec2.JPG" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/roane/rec3.JPG" alt="" /></span></div>
-										</div>
-									</div>
 								
 
 						</div>
@@ -167,7 +203,7 @@
 
 							<!-- Footer -->
 								<footer id="footer">
-									<p class="copyright">&copy; TmPortfolio. All rights reserved.<a href="https://undraw.co/illustrations">HTML5 UP</a>.</p>
+									<p class="copyright">&copy; TmPortfolio. All rights reserved.<a href="https://html5up.net/" target="_blank">HTML5 UP</a>.</p>
 								</footer>
 
 						</div>
