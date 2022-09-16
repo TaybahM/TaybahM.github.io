@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Anchorheart</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><img src="images/logos/logo_for_title.png" alt="Jane"  style="width:197.788px" height="18.038px"></a>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>Welcome to Anchorheart<br />
+											</h1>Promoting Community and Ending Isolation</p>
+										</header>
+										<p>Anchoheart is a remote from home start up volunteer project. It’s a virtual support network that provides individualized one on one support. Our mission is to promote connection, community, end loneliness and isolation. Anchorheart support buddies are caring individuals that provide virtual non proffesional individualized emotional support and companionship to clients.</p>
+										<p>Clients are not the only ones who will receive support. Volunteers will also be able to have community connection and support anytime they need it. Here at Anchorheart we don’t have employees, we have family. If you want to be a part of the Anchorheart family, sign up to be a volunteer or a client.</p>
+										<ul class="actions">
+											<li><a href="#" class="button big">Learn More</a></li>
+										</ul>
+									</div>
+									<span class="image right">
+										<img src="images/anchorheart.png" alt="" />
+									</span>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Sign Up Today</h2>
+									</header>
+									<h3>Client</h3>
+										<p><span class="image left"><img src="images/client.png" alt="" />
+										</span>Lorem ipsum dolor sit acLorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.cumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in</p>
+									<center>	
+										<a href="C:\Users\tayba\OneDrive\Desktop\new-website\client.html" class="button primary">Sign up to be a Client</a>
+									</center>
+									<h3>Volunteer</h3>	
+										<p>
+											<span class="image right"><img src="images/volunteer.png" alt="" /></span>
+											Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									<center>	
+										<a href="C:\Users\tayba\OneDrive\Desktop\new-website\volunteer.html" class="button primary">Sign up to be a Volunteer</a>
+									</center>
+									</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2 id="projects">Projects</h2>
+									</header>
+									<div class="posts">
+										
+									</div>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											<!-- Break -->
+
+											<div class="col-4">
+												<h3>Anchorheart</h3>
+											<p>An aesthetic and simple approach to a startup that promotes community and strives to end isolation.</p>
+												<ul class="actions">
+												<li><a href="aztek.html" class="button">More</a></li>
+											</ul></div>
+
+											<div class="col-4">
+												<h3>Jamaad Basketball Camp</h3>
+											<p>Sports logo created for a Non-Profit Orginization whos mission is to help empower all girls through basketball and teach them how to be better people on and off the court.</p>
+												<ul class="actions">
+												<li><a href="aztek.html" class="button">More</a></li>
+											</ul></div>
+
+											<div class="col-4">
+												<h3>BlackBeard</h3>
+											<p>Brand design for a mock company that sells beard essential oils.</p>
+												<ul class="actions">
+												<li><a href="aztek.html" class="button">More</a></li>
+											</ul></div>
+
+											<!-- Break -->
+											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+											<!-- Break -->
+											
+											<div class="col-4">
+												<h3>Anchorheart</h3>
+											<p>An aesthetic and simple approach to a startup that promotes community and strives to end isolation.</p>
+												<ul class="actions">
+												<li><a href="aztek.html" class="button">More</a></li>
+											</ul></div>
+
+											<div class="col-4">
+												<h3>Jamaad Basketball Camp</h3>
+											<p>Sports logo created for a Non-Profit Orginization whos mission is to help empower all girls through basketball and teach them how to be better people on and off the court.</p>
+												<ul class="actions">
+												<li><a href="aztek.html" class="button">More</a></li>
+											</ul></div>
+
+											<div class="col-4">
+												<h3>BlackBeard</h3>
+											<p>Brand design for a mock company that sells beard essential oils.</p>
+												<ul class="actions">
+												<li><a href="aztek.html" class="button">More</a></li>
+											</ul></div>
+										</div>
+									</div>
+								</section>
+
+						</div>
+					</div>
+
+					
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="generic.html">Generic</a></li>
+										<li><a href="elements.html">Elements</a></li>
+										<li>
+											<span class="opener">Join Us</span>
+											<ul>
+												<li><a href="volunteer.html">Volunteer</a></li>
+												<li><a href="client.html">Client</a></li>
+											</ul>
+										</li>
+										<li><a href="faqs.html">FAQS</a></li>
+										<li><a href="#">Contact Us</a></li>
+										<li>
+											<span class="opener">Learn</span>
+											<ul>
+												<li><a href="#">Seeking a Professional</a></li>
+												<li><a href="#">Becoming a Therapist</a></li>
+												<li><a href="#">Stress</a></li>
+												<li><a href="#">Anxiety</a></li>
+												<li><a href="#">Suicide</a></li>
+												<li><a href="#">Depression</a></li>
+												<li><a href="#">Eating Disorders</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Maximus Erat</a></li>
+										<li><a href="#">Sapien Mauris</a></li>
+										<li><a href="share.html">Share</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ante interdum</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>Whether you’re looking for support, information, or advice, our trained Anchorheart support specialists are ready to help.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">annahewi@me.com</a></li>
+										<li class="icon solid fa-phone">301-219-5519</li>
+										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
+										Nashville, TN 00000-0000</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
