@@ -1,6 +1,6 @@
 # TaybahM.github.io
 
-<h2>Taybah Mohammad's Portfolio</h2>
+<h2 href="TaybahM.github.io">Taybah Mohammad's Portfolio</h2>
 
 <h3>Contact</h3> 
 
