@@ -169,20 +169,20 @@ if(isset($_POST['submit'])) {
                                     <header class="major">
                                         <h2>News Wall</h2>
                                     </header>
-									<h6>Updated: 01/17/2022</h6>
+									<h6>Updated: 02/06/2022</h6>
 									<h6>Source: <a href="https://tldr.tech/" target="_blank">TLDR Newsletter</a></h6>
                                     <div class="mini-posts">
                                         <article>
-                                            <a href="https://www.cnet.com/tech/home-entertainment/this-next-generation-display-technology-is-going-to-change-the-world/?utm_source=tldrnewsletter" target="_blank" class="image"><img src="images/news wall/cnet.JPG" alt="" /></a>
-                                            <p>The Next-Generation display technology is going to change the world</p>
+                                            <a href="https://developer.chrome.com/articles/high-definition-css-color-guide/?utm_source=tldrnewsletter" target="_blank" class="image"><img src="images/news wall/css.jpg" alt="" /></a>
+                                            <p>High Definition CSS Color Guide</p>
                                         </article>
                                         <article>
-                                            <a href="https://techcrunch.com/2023/01/09/anthropics-claude-improves-on-chatgpt-but-still-suffers-from-limitations/?utm_source=tldrnewsletter" class="image" target="_blank"><img src="images/news wall/chatgpt.jpg" alt="" /></a>
-                                            <p>Anthropic's Claude improves on ChatGPT, but still suffers from limitations</p>
+                                            <a href="https://www.theregister.com/2023/02/03/googles_chromium_ios/?utm_source=tldrnewsletter" class="image" target="_blank"><img src="images/news wall/google-new-logo-450x450.jpg" alt="" /></a>
+                                            <p>Google works on Blink-based iOS browser contrary to Apple's WebKit rule</p>
                                         </article>
                                         <article>
-                                            <a href="https://www.semianalysis.com/p/nvidiaopenaitritonpytorch?utm_source=tldrnewsletter" class="image" target="_blank"><img src="images/news wall/NVIDIA.jpg" alt="" /></a>
-                                            <p>How Nvidia’s CUDA Monopoly In Machine Learning Is Breaking - OpenAI Triton And PyTorch 2.0</p>
+                                            <a href="https://www.theverge.com/2023/2/3/23584675/microsoft-ai-bing-chatgpt-screenshots-leak?utm_source=tldrnewsletter" class="image" target="_blank"><img src="images/news wall/chatgpt.jpg" alt="" /></a>
+                                            <p>Is this Microsoft’s ChatGPT-powered Bing?</p>
                                         </article>
                                     </div>
                                 </section>
