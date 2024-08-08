@@ -193,10 +193,9 @@ if(isset($_POST['submit'])) {
 									<header class="major">
 										<h2 id="#contact">Get in touch</h2>
 									</header>
-									<p>Contact me if you have any questions, would like to request more information or buy me a burrito.</p>
+									<p>Contact me if you have any questions, would like to request more information.</p>
 									<ul class="contact">
 										<li class="icon solid fa-envelope"><a href="mailto:taybahmohammad7@gmail.com">TaybahMohammad7@gmail.com</a></li>
-										<li class="icon solid fa-phone">571-577-5707</li>
 										<li class="icon solid fa-home">Dallas, TX<br />
 										</li>
 									</ul>
